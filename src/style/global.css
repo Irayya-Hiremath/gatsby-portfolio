@@ -1,4 +1,8 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 :root {
     --dark: #262626;
     --gray-1: #BCB4B4;
@@ -18,14 +22,6 @@ html{
     /* font-family: "RobotoMono Regular" !important; */
 }
 
-
-
-/* 
-span{
-    background-color:var(--deep-dark);
-    padding: 0.8rem;
-    border-radius: 2rem;
-} */
 .profile{
     background-image: url('../images/BGIMG3.png');
     /* height: 100%;
@@ -36,7 +32,6 @@ span{
     background-repeat: no-repeat;
     opacity: 30%;
     /* box-shadow: 0 10px 6px -6px grey; */
-    /* border: 2px solid white; */
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(228, 233, 227));
 
 }
@@ -76,18 +71,25 @@ span{
 
 .fcolumn{text-align: center;}
 /* *********Nav bar */
+.nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--dark) !important;
+    z-index: +1;
+
+}
 .menubar{
     display: flex;
     justify-items: center;
     align-items: center;  
     justify-content:space-around;
-    background-color: var(--dark);
     color:var(--white);
     width: 50%;
     height: 8%;
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    left: 0;
+    left: 0; */
     z-index: +1;
 }
 /* *********Nav bar */
@@ -125,21 +127,18 @@ span{
     }
     .profile{
         background-image: url('../images/BGIMG1.png');
-        height: 50%;
+        height: 55%;
         width: auto;
-        object-fit: contain;
         background-size: contain;
         opacity: 38%;
+        border: 1px solid white;
     }
     .profileText{
         padding-top: 2%;
         color: var(--gray-1);
         background-color: var(--dark);   
     }
-    .main{
-        /* display: flex !important;
-        flex-direction:column-reverse !important; */
-    }
+    
 }
 /* ************** Mobile ****************** */
 /********************************** footer component starts *************************************/
@@ -191,3 +190,52 @@ li .footerLink span {
     color: var(--orange);
 }
 /********************************** footer component ends *************************************/
+
+/* about education ****************************************************** */
+.aboutsection{
+    color: var(--gray-1);
+
+}
+
+h1{
+    /* border: 1px solid white; */
+    /* width: 20rem; */
+    font-weight: bold !important;
+
+}
+h6{
+    /* border: 1px solid white; */
+    width: auto !important;
+    font-size: 1.5rem !important;
+    background-color:var(--deep-dark);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right:1rem;
+
+}
+/* .bg_black{
+    background-color:var(--deep-dark);
+    padding: 0.8rem;
+    border-radius: 2rem;
+
+} */
+
+.read_about{
+    background-image: url('../images/veer1.jpeg');
+    /* /* height: 100%; */
+    width: 100%;
+    height: 100% !important;
+    /* width: auto; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity:50%;
+
+    /* box-shadow: 0 10px 6px -6px grey; */
+    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(228, 233, 227)); */
+}
+.aboutText{
+    padding-top: 1%;
+
+    color: var(--gray-1);
+    background-color: var(--dark);   
+}

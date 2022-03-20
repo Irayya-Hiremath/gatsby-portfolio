@@ -4,11 +4,13 @@ import {} from 'react-bootstrap'
 
 function Navmenu() {
   return (
-    <div className='menubar'>
-      <div> <Link className='navlink' to='/'>HOME</Link></div>
-      <div><Link  className='navlink' to='/about'>About</Link></div>
-      <div><Link  className='navlink' to='/project'>Project</Link></div>
-      <div><Link  className='navlink' to='/contact'>Contact</Link></div>
+    <div className="nav w-100 py-4">
+        <div className='menubar'>
+          <div> <Link className='navlink' to='/'>Home</Link></div>
+          <div><Link  className='navlink' to='/about'>About</Link></div>
+          <div><Link  className='navlink' to='/project'>Project</Link></div>
+          <div><Link  className='navlink' to='/contact'>Contact</Link></div>
+        </div>
     </div>
   )
 }
