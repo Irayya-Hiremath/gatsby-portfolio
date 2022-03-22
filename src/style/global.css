@@ -22,31 +22,7 @@ html{
     /* font-family: "RobotoMono Regular" !important; */
 }
 
-.profile{
-    background-image: url('../images/BGIMG3.png');
-    /* height: 100%;
-    width: 100%; */
-    height: 90%;
-    width: auto;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 30%;
-    /* box-shadow: 0 10px 6px -6px grey; */
-    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(228, 233, 227));
 
-}
-.profileText{
-    padding-top: 25%;
-    color: var(--gray-1);
-    background-color: var(--dark);
-
-
-    
-}
-.textbody{
-    background-color: var(--dark);
-
-}
 .layout{
     background-color: var(--dark);
     /* height:100vh; */
@@ -94,19 +70,7 @@ html{
 }
 /* *********Nav bar */
 
-.button{
-    background-color: var(--gray-1) !important;
-    color: var(--deep-dark) !important;
-    border: none !important;
-    font-size: large !important;
-    margin-right: 2rem;
-    border-radius: .5rem !important;
-    padding-left:2rem !important;
-    padding-right:2rem !important;
 
-
-
-}
 .navlink{
     text-decoration: none;
     color: var(--gray-1);
@@ -120,27 +84,7 @@ html{
     color: var(--gray-1);
 
 }
-/* ************** Mobile ****************** */
-@media (max-width: 900px) {
-    html{
-        font-size: 40%;
-    }
-    .profile{
-        background-image: url('../images/BGIMG1.png');
-        height: 55%;
-        width: auto;
-        background-size: contain;
-        opacity: 38%;
-        border: 1px solid white;
-    }
-    .profileText{
-        padding-top: 2%;
-        color: var(--gray-1);
-        background-color: var(--dark);   
-    }
-    
-}
-/* ************** Mobile ****************** */
+
 /********************************** footer component starts *************************************/
 
 
@@ -151,12 +95,11 @@ html{
     color: var(--gray-1);
 
 }
-.footerLink {
+.footerLink{
     text-decoration: none;
-    color: var(--footerContent);
     font-family: "RobotoMono Regular";
     font-size: 1.7rem;
-    color: var(--gray-1);
+    color: var(--gray-1) !important;
 
 
     /* line-height:1.8; */
@@ -183,59 +126,11 @@ html{
   
 .footerCopyright {
     background-color: var(--dark);
-    color: var(--footerContent);
+    color: var(--gray-1);
     font-size: 1.2rem;
 }
-li .footerLink span {
-    color: var(--orange);
-}
+
 /********************************** footer component ends *************************************/
 
-/* about education ****************************************************** */
-.aboutsection{
-    color: var(--gray-1);
 
-}
 
-h1{
-    /* border: 1px solid white; */
-    /* width: 20rem; */
-    font-weight: bold !important;
-
-}
-h6{
-    /* border: 1px solid white; */
-    width: auto !important;
-    font-size: 1.5rem !important;
-    background-color:var(--deep-dark);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right:1rem;
-
-}
-/* .bg_black{
-    background-color:var(--deep-dark);
-    padding: 0.8rem;
-    border-radius: 2rem;
-
-} */
-
-.read_about{
-    background-image: url('../images/veer1.jpeg');
-    /* /* height: 100%; */
-    width: 100%;
-    height: 100% !important;
-    /* width: auto; */
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity:50%;
-
-    /* box-shadow: 0 10px 6px -6px grey; */
-    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(228, 233, 227)); */
-}
-.aboutText{
-    padding-top: 1%;
-
-    color: var(--gray-1);
-    background-color: var(--dark);   
-}

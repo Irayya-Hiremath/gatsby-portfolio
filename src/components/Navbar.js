@@ -5,7 +5,7 @@ import {} from 'react-bootstrap'
 function Navmenu() {
   return (
     <div className="nav w-100 py-4">
-        <div className='menubar'>
+        <div className='menubar m-auto'>
           <div> <Link className='navlink' to='/'>Home</Link></div>
           <div><Link  className='navlink' to='/about'>About</Link></div>
           <div><Link  className='navlink' to='/project'>Project</Link></div>

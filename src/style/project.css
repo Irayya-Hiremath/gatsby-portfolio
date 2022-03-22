@@ -1,0 +1,9 @@
+.p_heading{
+    font-size: 5rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+
+}.project_page{
+    color: var(--gray-1);
+
+}

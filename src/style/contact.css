@@ -1,0 +1,52 @@
+.contact_page{
+    color: var(--gray-1);
+
+}
+.c_heading{
+    font-size: 5rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+.contact_left_side{
+    width:90%;
+    margin: auto;
+    padding: 2rem;
+    /* border: 2px solid white; */
+    border-radius: 1rem;
+    background-color:var(--deep-dark);
+    font-size: 1.5rem;
+    margin: 3rem;
+
+}
+
+.form-control {
+    margin: auto;
+    width:90% !important;
+    /* margin: auto !important; */
+    padding: 2rem !important;
+    /* border: 2px solid white !important; */
+    border-radius: 1rem !important;
+    background-color:var(--deep-dark) !important;
+    font-size: 2rem !important;
+    border: none !important;
+    color:var(--white) !important;
+}
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+.form-label {
+    margin-left: 3rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 2rem !important;
+
+    font-size: 1.5rem !important;
+
+}
+.map{
+    background-image: url("../images/map.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+
+    }

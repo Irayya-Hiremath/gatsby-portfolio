@@ -2,32 +2,34 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Layout from '../components/Layout'
 import { Button } from 'react-bootstrap'
-import { Link } from 'gatsby'
 
 
 function about() {
   return (
     <Layout>
-      <div className=" container readmore w-75 h-auto my-5 border">
-        <div className="row h-100">
-          <div className="col-lg-5 read_about col-12 order-lg-1 order-2 "></div>
-          <div className=" col-lg-6 col-11 order-lg-2 order-1 mb-5 ">
+      <div className=" container my-5">
+            <div className=" container row m-auto">
+              <div className="col-lg-5 read_about col-12 order-lg-1 order-2 "></div>
+                 <div className=" col-lg-7 col-12 order-lg-2 order-1 ">
                       <div className="aboutText  ">
-                        <p style={{fontSize:'2.5rem'}}>Hello,This is</p>
-                        <p style={{fontSize:'2.5rem'}}>Irayya Hiremath</p>
-                        {/* <p style={{fontSize:'3.5rem'}}>Frontend Devloper</p> */}
-                        <p  style={{fontSize:'1.5rem',textAlign:'justify'}}>I am working as a FrontEnd Devloper. I love to design and make new web experiences for the people,<br />
-                        Looking for an opportunity in esteemed organization to put my best efforts andalways hunger for learning new things and put those skills into continuous implementation to achieve personal
-                        growth and fulfilling organizational goals.</p>
+                            <p style={{fontSize:'2.5rem'}}>Hello,This is</p>
+                            <p style={{fontSize:'2.5rem'}}>Irayya Hiremath</p>
+                            {/* <p style={{fontSize:'3.5rem'}}>Frontend Devloper</p> */}
+                            <p  style={{fontSize:'1.5rem',textAlign:'justify'}}>Irayya Hiremath, a Mechanical Engineering graduate from Hulkoti, Gadag. Started as a Design Engineer at BLH H-Tech PVT LTD, Hubli in an IOT team for SPOUT project. A Prototype development of an Alcohol inventory system developed using IOT technology, I was responsible for parts designing of Spout using Catia V5.
+                            After completing the SPOUT prototype, Continued in the same organization as a customer facing Project Coordinator/Technical consultant for web and mobile Applications Under IT Dept. In that role I was responsible for gathering Customer requirements and signoff, Designing the wireframes and application flows. Collaborating with Sales, development and testing team to complete the application implementation. Customer Demo and Presentation.
+                            Currently, I am a Web developer intern at Sathvik Softech, Hubli. My responsibility include designing and developing UI for the websites and integrating it with back-end system..</p>
                       </div>
 
-                      <Button className="button">Works</Button>
-                      <Button className="button"> <Link to='/about'>  Readmore </Link> </Button>
+                      <div className="button_box p-3">
+                        <Button className="button">Download CV</Button>
+                        {/* <Button className="button"> <Link to='/about'>  Readmore </Link> </Button> */}
+                      </div>
+                </div>
+             </div>
           </div>
-        </div>
+          
 
-      </div>
-      <div className="aboutsection w-75 m-auto mt-5 border border-danger">
+      <div className=" aboutsection w-75 container p-3 m-auto mt-5">
           <div className="educatioinSection ">
             <h1>EDUCATION</h1>
             <div className="education mt-5 row">
@@ -48,7 +50,7 @@ function about() {
 
               </div>
               <div className="col-lg-3 col-12 mb-3 ">
-              <h2>Univercity</h2>
+              <h2>University</h2>
 
               </div>
               <div className="col-lg-8 col-12 d-flex justify-content-spacebetween flex-wrap">
@@ -97,9 +99,42 @@ function about() {
               </div>
             </div>
           </div>
+          <div className="educatioinSection mt-5 ">
+            <h1>EXPERIENCES</h1>
+            <div className="education mt-5 row">
+              <div className="col-lg-3 col-12 mb-3">
+              <h2>2020-</h2>
+
+              </div>
+              <div className="col-lg-8 col-12 mb-3 d-flex ">
+              <h6>FrontEnd Developer</h6>
+            
+
+              </div>
+              <div className="col-3">
+              <h2>2019-2020</h2>
+
+              </div>
+              <div className="col-lg-8 col-12 mb-3 d-flex justify-content-spacebetween flex-wrap">
+              <h6>Intern/Junior Web Developer</h6> 
+               
+
+              </div>
+              <div className="col-lg-3 col-12 mb-3 ">
+              <h2>2018-2019</h2>
+
+              </div>
+              <div className="col-lg-8 col-12 d-flex   justify-content-spacebetween flex-wrap">
+              <h6>Business Anlyst</h6> 
+
+              </div>
+            </div>
+          </div>
       </div>
+      
 
       <Footer/>
+      
     </Layout>
   )
 }
