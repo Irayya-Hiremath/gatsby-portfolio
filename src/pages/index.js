@@ -3,17 +3,27 @@ import Layout from '../components/Layout'
 import { Container,Button } from "react-bootstrap"
 import Footer from "../components/Footer"
 import { Link } from "gatsby"
+import AOS from 'aos';
+import { useEffect } from "react"
 
 
-// markup
 const IndexPage = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+    AOS.refresh();
+  }, []);
+
   return (
     <Layout>
        <Container fluid className="my-5">
 
          <div className="main row m-auto p-3 ">
          
-            <div className="profile col-lg-5 col-12 order-lg-1 order-2 b"> </div>
+            <div className="profile col-lg-5 col-12 order-lg-1 order-2 b" data-aos="fade-up"
+     data-aos-duration="3000"> </div>
             <div className=" textbody col-lg-7 col-12 order-lg-2 order-1">
                       <div className="profileText">
                         <p style={{fontSize:'2.5rem'}}>Hello,This is</p>

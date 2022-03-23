@@ -102,7 +102,7 @@ function about() {
           <div className="educatioinSection mt-5 ">
             <h1>EXPERIENCES</h1>
             <div className="education mt-5 row">
-              <div className="col-lg-3 col-12 mb-3">
+              <div className="col-lg-3 col-6 mb-3">
               <h2>2020-</h2>
 
               </div>
