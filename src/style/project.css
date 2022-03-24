@@ -42,6 +42,9 @@
 
 
 }
+.card-title{
+    font-weight: bold !important;
+}
 @media (max-width: 900px) {
     html{
         font-size: 40%;

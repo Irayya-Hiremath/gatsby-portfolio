@@ -47,7 +47,7 @@ html{
 
 .fcolumn{text-align: center;}
 /* *********Nav bar */
-.nav{
+/* .nav{
     position: sticky;
     top: 0;
     left: 0;
@@ -63,12 +63,9 @@ html{
     color:var(--white);
     width: 50%;
     height: 8%;
-    /* position: sticky;
-    top: 0;
-    left: 0; */
     z-index: +1;
 }
-/* *********Nav bar */
+
 
 
 .navlink{
@@ -83,7 +80,7 @@ html{
     border-radius: 1rem;
     color: var(--gray-1);
 
-}
+} */
 
 /********************************** footer component starts *************************************/
 
@@ -102,7 +99,6 @@ html{
     color: var(--gray-1) !important;
 
 
-    /* line-height:1.8; */
 
 }
 .footerLink:hover {

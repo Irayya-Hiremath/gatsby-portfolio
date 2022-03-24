@@ -2,6 +2,8 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Layout from '../components/Layout'
 import { Button } from 'react-bootstrap'
+import cv from '../images/irayyacv2022.pdf'
+import Link from 'gatsby'
 
 
 function about() {
@@ -11,18 +13,18 @@ function about() {
             <div className=" container row m-auto">
               <div className="col-lg-5 read_about col-12 order-lg-1 order-2 "></div>
                  <div className=" col-lg-7 col-12 order-lg-2 order-1 ">
-                      <div className="aboutText  ">
-                            <p style={{fontSize:'2.5rem'}}>Hello,This is</p>
-                            <p style={{fontSize:'2.5rem'}}>Irayya Hiremath</p>
+                      <div className="aboutText">
+                            <p style={{fontSize:'2.5rem'}}>Hello,</p>
+                            <p style={{fontSize:'2rem'}}>Let me introduce myself</p>
                             {/* <p style={{fontSize:'3.5rem'}}>Frontend Devloper</p> */}
-                            <p  style={{fontSize:'1.5rem',textAlign:'justify'}}>I Am currently working as a front-end developer. I am a Mechanical Engineering graduate from Hulkoti, Gadag. Started as a Design Engineer at BLH H-Tech PVT LTD, Hubli in an IoT team for the SPOUT project. Prototype development of an Alcohol inventory system developed using IOT technology, I was responsible for parts designing of Spout using Catia V5.<br/>
+                            <p  style={{fontSize:'1.5rem',textAlign:'justify'}}>I Am Irayya Hiremath currently working as a Front-End Developer. I am a Mechanical Engineering graduate from Hulkoti, Gadag. Started as a Design Engineer at BLH H-Tech PVT LTD, Hubbali in an IoT team for the SPOUT project. Prototype development of an Alcohol inventory system developed using IOT technology, I was responsible for parts designing of Spout using Catia V5.<br/>
                             After completing the SPOUT prototype, Continued in the same organization as a customer-facing Project Coordinator/Technical consultant for web and mobile Applications Under IT Dept. In that role, I was responsible for gathering Customer requirements and signoff, Designing the wireframes and application flows. Collaborating with Sales, development, and testing team to complete the application implementation. Customer Demo and Presentation.<br/>
-                            After that I found interest in development and coding then I joined the organization Sathvik Softech, Hubli. where I had completed my course and got an opportunity for an internship and worked many small projects learned new technology with real time projects. include designing and developing UI for the websites and integrating it with the back-end system.</p>
+                            After that I found interest in development and coding then I joined the organization Sathvik Softech, Hubbali. where I had completed my course and got an opportunity for an internship and worked many small projects learned new technology with real time projects. include designing and developing UI for the websites and integrating it with the back-end system.</p>
                       </div>
 
                       <div className="button_box p-3">
-                        <Button className="button">Download CV</Button>
-                        {/* <Button className="button"> <Link to='/about'>  Readmore </Link> </Button> */}
+                        <a href={cv}> <Button className="button"> Download CV</Button>  </a>
+                        {/* <Button className="button"> <Link to={cv}> Readmore </Link> </Button> */}
                       </div>
                 </div>
              </div>
@@ -38,7 +40,7 @@ function about() {
 
               </div>
               <div className="col-lg-8 col-12 mb-3 d-flex ">
-              <h6>Lamington High School,Hubli</h6>
+              <h6>Lamington High School,Hubbali</h6>
 
               </div>
               <div className="col-3">
@@ -107,7 +109,7 @@ function about() {
 
               </div>
               <div className="col-lg-8 col-12 mb-3 d-flex ">
-              <h6>FrontEnd Developer</h6>
+              <h6>Front-End Developer at SamarthMeditech Pvt Ltd</h6>
             
 
               </div>
@@ -116,7 +118,7 @@ function about() {
 
               </div>
               <div className="col-lg-8 col-12 mb-3 d-flex justify-content-spacebetween flex-wrap">
-              <h6>Intern/Junior Web Developer</h6> 
+              <h6>Intern/Junior Web Developer at Sathvik Softech</h6> 
                
 
               </div>
@@ -125,7 +127,7 @@ function about() {
 
               </div>
               <div className="col-lg-8 col-12 d-flex   justify-content-spacebetween flex-wrap">
-              <h6>Business Anlyst</h6> 
+              <h6>Design Engineer at BLH Hi-Tech Pvt Ltd</h6> 
 
               </div>
             </div>
