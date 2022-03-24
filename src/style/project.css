@@ -33,7 +33,6 @@
 .card-body{
     border-radius: 1rem !important;
     border: 3px solid var(--gray-2) !important;
-    background-color: var(--deep-dark) !important;
 
 }
 .card_img{

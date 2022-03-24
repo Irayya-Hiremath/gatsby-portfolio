@@ -34,6 +34,9 @@
 .form-control:focus {
     outline: none !important;
     box-shadow: none !important;
+    background-color:var(--deep-dark) !important;
+    color:var(--white) !important;
+
   }
 .form-label {
     margin-left: 3rem !important;
@@ -50,3 +53,16 @@
     background-size: cover;
 
     }
+    @media (max-width: 900px) {
+        html{
+            font-size: 40%;
+        }.map{
+            background-image: url("../images/map.png");
+            height: 200px;
+            background-position: center;
+            background-size: cover;
+        
+            }
+
+    }
+

@@ -3,8 +3,19 @@ import Layout from '../components/Layout'
 import { Form,Button, Container } from 'react-bootstrap'
 import Footer from '../components/Footer'
 // import { CgMail } from "@react-icons/all-files/fa/FaCgMail";
+import emailjs from 'emailjs-com'
 
 export default function contact() {
+
+  function sendEmail(e){
+    e.preventDefault(); 
+
+    emailjs.sendForm( 'service_610fgdb',
+    'template_8598s19',
+    e.target,
+    "n9_E03eNOBf4GsTFI").then(res=>{console.log(res);}).catch(error=> console.log(error));
+
+  }
   return (
     <Layout>
       <div className=" container contact_page  my-5 p-3  ">
@@ -19,25 +30,24 @@ export default function contact() {
             
           </div>
           <div className=" col-lg-5 col-12 m-auto ">
-          <Form>
+          <Form onSubmit={sendEmail}>
               <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Your Name</Form.Label>
-                <Form.Control type="text" />
+                <Form.Control type="text" name='name' />
               </Form.Group>
               <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Your Email</Form.Label>
-                <Form.Control type="email"/>
+                <Form.Control type="email" name='user_email'/>
               </Form.Group> 
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Your Message</Form.Label>
-                <Form.Control className='py-5' as="textarea" rows={3} />
+                <Form.Control className='py-5' as="textarea" name='message' rows={3} />
               </Form.Group>
+
+              <Button type='submit' className="button mx-5">Submit</Button>
+
           </Form>
-          <div className="button_box px-5">
-                        <Button className="button">Submit</Button>
-                       
-            </div>
-          
+        
           </div>
         </div>
         </div>

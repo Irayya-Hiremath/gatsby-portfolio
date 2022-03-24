@@ -30,7 +30,7 @@ const IndexPage = () => {
                         <p style={{fontSize:'2.5rem'}}>Irayya Hiremath</p>
                         {/* <p style={{fontSize:'3.5rem'}}>Frontend Devloper</p> */}
                         <p style={{fontSize:'1.5rem',textAlign:'justify'}}>I am working as a FrontEnd Devloper. I love to design and make new web experiences for the people,<br />
-                        Looking for an opportunity in esteemed organization to put my best efforts andalways hunger for learning new things and put those skills into continuous implementation to achieve personal
+                        Looking for an opportunity in esteemed organization to put my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal
                         growth and fulfilling organizational goals.</p>
                       </div>
 
