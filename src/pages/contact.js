@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import Layout from '../components/Layout'
 import { Form,Button, Container } from 'react-bootstrap'
 import Footer from '../components/Footer'
-// import { CgMail } from "@react-icons/all-files/fa/FaCgMail";
+import { FaRegEnvelope } from "@react-icons/all-files/fa/FaRegEnvelope";
+import{FaMapMarkerAlt} from "@react-icons/all-files/fa/FaMapMarkerAlt";
+import {FaMobileAlt} from "@react-icons/all-files/fa/FaMobileAlt";
 import emailjs from 'emailjs-com'
 
 const Result =() =>{
@@ -37,10 +39,19 @@ function Contact() {
         <h1 className='text-center c_heading'>Contact</h1>
         <div className="row h-100">
           <div className="col-lg-5 col-12  m-auto  ">
-            <div className='contact_left_side' >+91-8951629431</div>
-            <div className='contact_left_side' >ihiremath1991@gmail.com</div>
-            <div className='contact_left_side' >Hubbali, Karnataka</div>
-            
+
+            <div className='contact_left_side' >
+                <span className='icondiv'> <FaMobileAlt className='icons'/></span>+91-8951629431
+            </div>
+
+            <div className='contact_left_side'> 
+                <span className='icondiv'> <FaRegEnvelope className='icons'/></span>ihiremath1991@gmail.com
+            </div>
+
+            <div className='contact_left_side'>
+               <span className='icondiv'> <FaMapMarkerAlt className='icons'/></span>Hubbali, Karnataka
+            </div>
+          
           </div>
           <div className=" col-lg-5 col-12 m-auto ">
           <Form onSubmit={sendEmail}>
@@ -64,7 +75,19 @@ function Contact() {
           </div>
         </div>
         </div>
-        <Container fluid className='map'></Container>
+        <Container fluid className='map'>
+
+
+                <FaMapMarkerAlt className='mapicon'/>
+              <div className="addbox">
+                <h1>Here is me</h1>
+                <p>Renukanagar, Hubbali, <br />
+                  Karnataka, 580030
+                </p>
+                <a href="https://goo.gl/maps/WCcRdJRDX27PKBK46" target="_blank">Open in google map</a>
+
+              </div>
+        </Container>
       <Footer/>
 
 

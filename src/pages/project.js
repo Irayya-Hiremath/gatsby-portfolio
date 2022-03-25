@@ -63,7 +63,7 @@ import comp from '../images/sc2.png'
   return (
     <Layout>
       <div className="container project_page my-5 p-3 ">
-        <p className='text-center' style={{fontSize:'1.5rem'  }}>some of my recent works</p>
+        <p className='text-center' style={{fontSize:'1.5rem'  }}>Some Of My Recent Works</p>
         <h1 className='text-center p_heading'>PROJECTS</h1>
         <div className="search_bar"></div>
         <div className="row project_box">
