@@ -3,7 +3,6 @@ import Footer from '../components/Footer'
 import Layout from '../components/Layout'
 import { Button } from 'react-bootstrap'
 import cv from '../images/irayyacv2022.pdf'
-import Link from 'gatsby'
 
 
 function about() {
