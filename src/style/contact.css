@@ -113,9 +113,9 @@
                 color: var(--gray-1) !important;
                 background: var(--deep-dark);
                 border-radius: 2rem !important;
-                border: 3px solid var(--gray-2) !important;
+                border: 1px solid var(--gray-2) !important;
                 margin-left: 35% !important;
-                margin-top: 4% !important;
+                margin-top: 2% !important;
             }
             .mapicon{
                 width: 6rem !important;
