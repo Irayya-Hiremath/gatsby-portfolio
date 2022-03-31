@@ -82,7 +82,8 @@ function about() {
               <h6>GatsBy</h6> 
               <h6>React Bootstrap</h6> 
               <h6>Bootstrap</h6> 
-              <h6>Tailwind css</h6>  <h6>Ant D</h6> 
+              <h6>Tailwind css</h6>
+              <h6>Ant D</h6> 
               <h6>Next JS</h6> 
 
               </div>
@@ -90,7 +91,7 @@ function about() {
               <h2>Tools</h2>
 
               </div>
-              <div className="col-lg-8 col-12 d-flex   justify-content-spacebetween flex-wrap">
+              <div className="col-lg-8 col-12 d-flex justify-content-spacebetween flex-wrap">
               <h6>AWS</h6> 
               <h6>Draw.io Flow charts</h6> 
               <h6>VS code</h6> 

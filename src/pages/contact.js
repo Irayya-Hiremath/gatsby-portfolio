@@ -84,7 +84,7 @@ function Contact() {
                 <p>Renukanagar, Hubbali, <br />
                   Karnataka, 580030
                 </p>
-                <a href="https://goo.gl/maps/WCcRdJRDX27PKBK46" target="_blank">Open in google map</a>
+                <a href="https://goo.gl/maps/WCcRdJRDX27PKBK46">Open in google map</a>
 
               </div>
         </Container>

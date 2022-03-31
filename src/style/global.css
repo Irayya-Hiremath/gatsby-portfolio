@@ -15,7 +15,7 @@ body{
     background-color: var(--dark);
     /* font-family: "RobotoMono Regular" !important; */
     font-family: 'Bangers', cursive !important;
-font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 html{
     font-size: 62.5%;
@@ -45,46 +45,14 @@ html{
     justify-content: space-around;*/
 }
 
-.fcolumn{text-align: center;}
-/* *********Nav bar */
-/* .nav{
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: var(--dark) !important;
-    z-index: +1;
-
-}
-.menubar{
-    display: flex;
-    justify-items: center;
-    align-items: center;  
-    justify-content:space-around;
-    color:var(--white);
-    width: 50%;
-    height: 8%;
-    z-index: +1;
-}
-
-
-
-.navlink{
-    text-decoration: none;
-    color: var(--gray-1);
-    font-size: 2rem; 
-    padding: 1rem;
-
-}
-.navlink:hover{
-    background-color:var(--deep-dark);
-    border-radius: 1rem;
-    color: var(--gray-1);
-
-} */
+.fcolumn{
+    text-align: center;}
 
 /********************************** footer component starts *************************************/
 
-
+::-webkit-scrollbar {
+    display: none;
+  }
 
 
 .mainFooter {

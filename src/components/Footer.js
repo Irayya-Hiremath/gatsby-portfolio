@@ -12,7 +12,7 @@ function Footer() {
                             <h3 className='footerHeader mb-3'>Irayya Hiremath</h3>
                             <div>
                                 <div className="footerContact mb-5 justify">
-                                I am Front-End Developer from Hubbali, Karanataka. <br/> 
+                                I am Front-End Developer from Hubbali, Karnataka. <br/> 
                                 I always make websites that have unique designs and also has a good performance rate.
                                 </div>
                             </div>
@@ -36,9 +36,9 @@ function Footer() {
                             <h3 className='footerHeader ps-2 mb-3'><span className='halfBorder pb-3'>Contact Info</span></h3>
                             <ul className="list-unstyled  px-5 ">
                                 <li className='footerLink'>+91 8951629431</li>
-                                <li><Link className='footerLink' to="/campus">ihiremath1991@gmail.com</Link></li>
-                                <li><Link className='footerLink' to="campus/">Hubballi</Link></li>
-                                <li><Link className='footerLink' to="/campus">Karnataka</Link></li>
+                                <li><Link className='footerLink' >ihiremath1991@gmail.com</Link></li>
+                                <li><Link className='footerLink' >Hubballi</Link></li>
+                                <li><Link className='footerLink' >Karnataka</Link></li>
 
                             </ul>
                         </div>
