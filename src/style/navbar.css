@@ -182,4 +182,8 @@
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
+    .navbar .menu-items li{
+        margin-bottom: 1.5rem;
+       
+    }
 }
