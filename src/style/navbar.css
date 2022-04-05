@@ -57,7 +57,7 @@
     color: var(--gray-1);
     font-size: 1.8rem; 
     padding: 1rem;
-    font-weight: bold !important;
+    font-weight: 900 !important;
 }
 
 
@@ -92,8 +92,8 @@
 
     .navbar-container .hamburger-lines{
         display: block;
-        height: 28px;
-        width: 35px;
+        height: 25px;
+        width: 30px;
         position: absolute;
         top: 20px;
         left: 20px;
@@ -134,7 +134,7 @@
         padding-top: 70px;
         color: var(--gray-1);
         background-color: var(--dark);
-        height: 50vh;
+        height: 40vh;
         width: 75% !important;
         transform: translate(-150%);
         display: flex;
@@ -145,14 +145,14 @@
         overflow: scroll;
         text-align: center;
 
+
     }
 
     .navbar .menu-items li{
         margin-bottom: 5rem;
         font-size: 3rem;
-        font-weight: 500;
     }
-
+   
     .logo{
         position: absolute;
         top: 10px;
@@ -184,6 +184,6 @@
     }
     .navbar .menu-items li{
         margin-bottom: 1.5rem;
-       
+
     }
 }

@@ -5,7 +5,6 @@ import Footer from "../components/Footer"
 import { Link } from "gatsby"
 import { useEffect } from "react"
 import AOS from 'aos'
-
 import ecom from '../images/ecom.jpeg'
 import hospital from '../images/hospital.jpg'
 import pharma from '../images/pharma.jpg'
@@ -42,18 +41,19 @@ const IndexPage = () => {
                         <p style={{fontSize:'1.5rem',textAlign:'justify'}}>I Have done projects using following WebTechnologies</p>
 
                           <div className="skillschart w-75 d-flex justify-content-spacebetween flex-wrap">
-                            <h6>HTML</h6>
-                            <h6>CSS</h6>
-                            <h6>JavaScript</h6>
-                            <h6>React JS</h6> 
-                            <h6>GatsBy</h6> 
-                            <h6>React Bootstrap</h6> 
-                            <h6>Bootstrap</h6> 
-                            <h6>Tailwind css</h6>
-                            <h6>Ant D</h6> 
-                            <h6>Next JS</h6>   
-                             <h6>AWS</h6> 
-                        </div>
+                              <h6>HTML</h6>
+                              <h6>CSS</h6>
+                              <h6>JavaScript</h6>
+                              <h6>React JS</h6> 
+                              <h6>GatsBy</h6> 
+                              <h6>React Bootstrap</h6> 
+                              <h6>Bootstrap</h6> 
+                              <h6>Tailwind css</h6>
+                              <h6>Ant D</h6> 
+                              <h6>Next JS</h6>   
+                              <h6>AWS</h6> 
+                              <h6>PWA</h6> 
+                          </div>
                         
                       </div>
                       
