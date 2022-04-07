@@ -1,9 +1,9 @@
-import './public/static/style/global.css'
-import './public/static/style/about.css'
-import './public/static/style/contact.css'
-import './public/static/style/index.css'
-import './public/static/style/project.css'
-import './public/static/style/navbar.css'
+import './src/style/global.css'
+import './src/style/about.css'
+import './src/style/contact.css'
+import './src/style/index.css'
+import './src/style/project.css'
+import './src/style/navbar.css'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css'
