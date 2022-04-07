@@ -1,5 +1,5 @@
 .profile{
-    background-image: url('../static/BGIMG3.png');
+    background-image: url('../images/BGIMG3.png');
     height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
         font-size: 40%;
     }
     .profile{
-        background-image: url('./static/BGIMG3.png');
+        background-image: url('../images/BGIMG3.png');
         background-size:contain;
         background-position:left;
         opacity:60%;

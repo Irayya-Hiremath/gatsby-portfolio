@@ -8,7 +8,6 @@ import{FaSistrix} from "@react-icons/all-files/fa/FaSistrix";
 
 function Project() {
 
-   const [projects ,setProjects] =useState(ProjectData)
    const [search ,setSearch]=useState('')
 
 
@@ -33,7 +32,7 @@ function Project() {
 
         <div className="row project_box">
              
-          {projects.filter((p)=>p.title.toLowerCase().includes(search)).map((data, i) => {
+          {ProjectData.filter((p)=>p.title.toLowerCase().includes(search)).map((data, i) => {
             return (
               <Card className="col-lg-4 col-6 my-3">
                 <Card.Img className="card_img" variant="top" src={data.img} />
