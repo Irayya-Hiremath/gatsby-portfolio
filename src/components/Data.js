@@ -40,7 +40,7 @@ const ProjectData=[
 
         },
    {
-        img: './static//clg.png',
+        img: './static/clg.png',
         description:`Developed Pre-University College website by using Gatsby static website
         generator and React-bootstrap with Styled component. The website
         shows detailed information about college.`,
@@ -49,7 +49,7 @@ const ProjectData=[
 
         },
     {
-      img: './static//company.png',
+      img: './static/company.png',
       description:`This is a static website that includes a company overview and all information
       about products & services. Used HTML,CSS,Javascript technology to build.`,
       title:'Samarth Meditech company Website',

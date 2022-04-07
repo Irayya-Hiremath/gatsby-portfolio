@@ -22,7 +22,7 @@ h6{
 
 
 .read_about{
-    background-image: url('./veeru.jpeg');
+    background-image: url('./static/veeru.jpeg');
     background-size:contain;
     background-repeat:space;
     background-position: center;
@@ -40,7 +40,7 @@ h6{
         font-size: 40%;
     }
     .read_about{
-        background-image: url('./veeru.jpeg');
+        background-image: url('./static/veeru.jpeg');
         background-size:cover;
         background-position:top;
         opacity:60%;
