@@ -100,9 +100,11 @@
         margin:auto !important;
     }
     .search_bar{
-        width: 60% !important;
+        width: 50% !important;
         margin-top: 5rem !important;
         margin-bottom: 2rem !important;
         margin-left: 1% !important;
+        font-size: 1.5rem !important;
+        padding: 1rem !important;
     }
 }
