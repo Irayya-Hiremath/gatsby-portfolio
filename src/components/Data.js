@@ -1,3 +1,5 @@
+// import {ware} from '../images/ware.jpg'
+
 const ProjectData=[
     {
       img: './static/ware.jpg',
