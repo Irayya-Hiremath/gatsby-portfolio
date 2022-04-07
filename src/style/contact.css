@@ -51,7 +51,7 @@
 
 }
 .map{
-    background-image: url("../../public/static/map-02.jpeg");
+    background-image: url('../images/map-02-bfda2343fde22a1e1dbe971d9069763d.jpeg');
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -98,7 +98,7 @@
         html{
             font-size: 40%;
         }.map{
-            background-image: url("../../public/static/map-02.jpeg");
+            background-image: url('../images/map-02-bfda2343fde22a1e1dbe971d9069763d.jpeg');
             height: 200px;
             background-position: center;
             background-size: cover;
