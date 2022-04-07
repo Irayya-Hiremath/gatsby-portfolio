@@ -2,7 +2,6 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Layout from '../components/Layout'
 import { Button } from 'react-bootstrap'
-import cv from '../images/irayyacv2022.pdf'
 
 
 function about() {
@@ -21,7 +20,7 @@ function about() {
                       </div>
 
                       <div className="button_box p-3">
-                        <a href={cv}> <Button className="button"> Download CV</Button>  </a>
+                        <a href='./static/irayyacv2022.pdf'> <Button className="button"> Download CV</Button>  </a>
                       </div>
                 </div>
              </div>

@@ -53,7 +53,7 @@ function Contact() {
             </div>
           
           </div>
-          <div className=" col-lg-5 col-12 m-auto ">
+          <div className=" c_form col-lg-5 col-12 m-auto ">
           <Form onSubmit={sendEmail}>
               <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
                 <Form.Label>Your Name</Form.Label>

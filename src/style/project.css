@@ -7,13 +7,53 @@
     color: var(--gray-1);
 
 }
+.search_bar{
+    width: 25% !important;
+    margin-top: 5rem !important;
+    margin-left: 13% !important;
+}
+.searchIcon{
+    margin-left: 1rem!important;
+    width: 3rem !important;
+    height:3.5rem !important;
+    margin: auto !important;
+}
+.input-group{
+    background-color:var(--white) !important;
+    border-radius: 1rem !important;
+
+}
+.search_bar .form-control {
+    padding: .5rem !important;
+    border-radius: 1rem !important;
+    color:var(--deep-dark) !important;
+    font-size: 1.5rem !important;
+    border: none !important;
+    background-color:var(--white) !important;
+}
+.search_bar .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color:var(--white) !important;
+   
+  }
+  .srch_button{
+    background-color:transparent !important;
+
+  }
+  .srch_button:hover{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
 /* *********************card**************** */
 .project_box{
     display: flex !important;
     justify-content: space-evenly !important;
     align-items: flex-start !important;
     width: 75% !important;
-    margin-top: 10rem !important;
+    margin-top: 3rem !important;
     margin-left: 12.5% !important;
 }
 .card {
@@ -22,7 +62,6 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    /* margin: 2rem !important; */
     background-color: var(--dark) !important;
     background-clip: border-box;
     border: none !important;
@@ -32,7 +71,6 @@
 }
 .card-body{
     border-radius: 1rem !important;
-    /* border: 3px solid var(--gray-2) !important; */
     background-color: var(--deep-dark) !important;
     color: var(--gray-1) !important;
 
@@ -43,7 +81,6 @@
     border: 3px solid var(--gray-2) !important;
     object-fit: cover !important;
     height: 30rem !important;
-    /* width: 30rem !important; */
 
 
 }
@@ -61,5 +98,11 @@
         align-items: flex-start !important;
         width: 100% !important;
         margin:auto !important;
+    }
+    .search_bar{
+        width: 60% !important;
+        margin-top: 5rem !important;
+        margin-bottom: 2rem !important;
+        margin-left: 1% !important;
     }
 }

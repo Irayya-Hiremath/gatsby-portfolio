@@ -22,14 +22,11 @@ h6{
 
 
 .read_about{
-    background-image: url('../images/veeru.jpeg');
+    background-image: url('../../public/static/veeru.jpeg');
     background-size:contain;
     background-repeat:space;
     background-position: center;
     opacity:60%;
-    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(228, 233, 227)); */
-    /* box-shadow: 0 10px 6px -6px grey; */
-    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(228, 233, 227)); */
 }
 .aboutText{
     padding-top: 1%;
@@ -43,7 +40,7 @@ h6{
         font-size: 40%;
     }
     .read_about{
-        background-image: url('../images/veeru.jpeg');
+        background-image: url('../../public/static/veeru.jpeg');
         background-size:cover;
         background-position:top;
         opacity:60%;

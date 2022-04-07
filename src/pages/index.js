@@ -1,161 +1,107 @@
-import * as React from "react"
-import Layout from '../components/Layout'
-import { Container,Button,Card } from "react-bootstrap"
-import Footer from "../components/Footer"
-import { Link } from "gatsby"
-import { useEffect } from "react"
-import AOS from 'aos'
-import ecom from '../images/ecom.jpeg'
-import hospital from '../images/hospital.jpg'
-import pharma from '../images/pharma.jpg'
-import ware from '../images/ware.jpg'
-import clg from '../images/clg.png'
-import comp from '../images/company.png'
-
+import * as React from "react";
+import Layout from "../components/Layout";
+import { Container, Button, Card } from "react-bootstrap";
+import Footer from "../components/Footer";
+import { Link } from "gatsby";
+import { useEffect } from "react";
+import AOS from "aos";
+import ProjectData from "../components/Data";
 
 const IndexPage = () => {
-
   useEffect(() => {
-    
     AOS.init({
-      duration : 2000
+      duration: 2000,
     });
     AOS.refresh();
   }, []);
 
   return (
     <Layout>
-       <Container fluid className="my-5" >
+      <Container fluid className="my-5">
+        <div className="main row m-auto p-3 ">
+          <div className="profile col-lg-5 col-12 order-lg-1 order-2 b"> </div>
+          <div
+            className=" textbody col-lg-7 col-12 order-lg-2 order-1"
+            data-aos="fade-zoom-in"
+          >
+            <div className="profileText">
+              <p style={{ fontSize: "2.5rem" }}>Hello,This is</p>
+              <p style={{ fontSize: "2.5rem" }}>Irayya Hiremath</p>
+              {/* <p style={{fontSize:'3.5rem'}}>Frontend Devloper</p> */}
+              <p style={{ fontSize: "1.5rem", textAlign: "justify" }}>
+                I am working as a Front-End Developer. I love to design and make
+                new web experiences for the people,
+                <br />
+                Looking for an opportunity in an esteemed organization to put in
+                my best efforts and always hunger for learning new things and
+                put those skills into continuous implementation to achieve
+                personal growth and fulfilling organizational goals.
+              </p>
 
-         <div className="main row m-auto p-3 ">
-         
-            <div className="profile col-lg-5 col-12 order-lg-1 order-2 b"> </div>
-            <div className=" textbody col-lg-7 col-12 order-lg-2 order-1"  data-aos="fade-zoom-in" >
-                      <div className="profileText">
-                        <p style={{fontSize:'2.5rem'}}>Hello,This is</p>
-                        <p style={{fontSize:'2.5rem'}}>Irayya Hiremath</p>
-                        {/* <p style={{fontSize:'3.5rem'}}>Frontend Devloper</p> */}
-                        <p style={{fontSize:'1.5rem',textAlign:'justify'}}>I am working as a Front-End Developer. I love to design and make new web experiences for the people,<br />
-                        Looking for an opportunity in an esteemed organization to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfilling organizational goals.</p>
+              <p style={{ fontSize: "1.5rem", textAlign: "justify" }}>
+                I Have done projects using following WebTechnologies
+              </p>
 
-                        <p style={{fontSize:'1.5rem',textAlign:'justify'}}>I Have done projects using following WebTechnologies</p>
-
-                          <div className="skillschart w-75 d-flex justify-content-spacebetween flex-wrap">
-                              <h6>HTML</h6>
-                              <h6>CSS</h6>
-                              <h6>JavaScript</h6>
-                              <h6>React JS</h6> 
-                              <h6>GatsBy</h6> 
-                              <h6>React Bootstrap</h6> 
-                              <h6>Bootstrap</h6> 
-                              <h6>Tailwind css</h6>
-                              <h6>Ant D</h6> 
-                              <h6>Next JS</h6>   
-                              <h6>AWS</h6> 
-                              <h6>PWA</h6> 
-                          </div>
-                        
-                      </div>
-                      
-                      
-                      <div className="button_box  p-3">
-                        <Button className="button"><Link to='/project'>  Works </Link> </Button>
-                        <Button className="button"> <Link to='/about'>  Readmore </Link> </Button>
-                      </div>
-                      
+              <div className="skillschart w-75 d-flex justify-content-spacebetween flex-wrap">
+                <h6>HTML</h6>
+                <h6>CSS</h6>
+                <h6>JavaScript</h6>
+                <h6>React JS</h6>
+                <h6>GatsBy</h6>
+                <h6>React Bootstrap</h6>
+                <h6>Bootstrap</h6>
+                <h6>Tailwind css</h6>
+                <h6>Ant D</h6>
+                <h6>Next JS</h6>
+                <h6>AWS</h6>
+                <h6>PWA</h6>
+              </div>
             </div>
 
-         </div>
-
-       </Container>
-          <div className="project_section w-100">
-          <p className='text-center mt-2' style={{fontSize:'1.5rem'}}>Some Of My Recent Works</p>
-          <h1 className='text-center mb-4' style={{fontSize:'4rem'}}>PROJECTS</h1>
-          <div className=" project_box m-auto row d-flex justify-content-spacebetween flex-wrap">
-
-          <Card className="col-lg-4 p-4 col-6">
-              <Card.Img   src={clg}/>
-              <Card.Body>
-                <Card.Title>College Website</Card.Title>
-                <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
-                             <p className="p_technolgies">React JS</p> 
-                            <p className="p_technolgies">GatsBy</p> 
-                            <p className="p_technolgies">React Bootstrap</p> 
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className="col-lg-4 p-4 col-6">
-              <Card.Img   src={ecom}/>
-              <Card.Body>
-                <Card.Title>Grocery e-commerce application</Card.Title>
-                <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
-                            <p className="p_technolgies"> HTML</p> 
-                            <p className="p_technolgies"> CSS</p> 
-                            <p className="p_technolgies"> Angular</p> 
-                            <p className="p_technolgies">PHP</p> 
-                            <p className="p_technolgies">AWS</p> 
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className="col-lg-4 p-4 col-6">
-              <Card.Img   src={comp}/>
-              <Card.Body>
-                <Card.Title>Samarth Meditech company Website</Card.Title>
-                <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
-                            <p className="p_technolgies"> Bootstrap</p> 
-                            <p className="p_technolgies"> Javascript</p> 
-                            <p className="p_technolgies">AWS</p> 
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className="col-lg-4 p-4 col-6">
-              <Card.Img   src={pharma}/>
-              <Card.Body>
-                <Card.Title>Retail Pharmacy Management System</Card.Title>
-                <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
-                            <p className="p_technolgies">React JS</p> 
-                            <p className="p_technolgies">Ant D</p> 
-                            <p className="p_technolgies">Node js</p> 
-                            <p className="p_technolgies">Express</p>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className="col-lg-4 p-4 col-6">
-              <Card.Img   src={ware}/>
-              <Card.Body>
-                <Card.Title>Ware House Mangement</Card.Title>
-                <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
-                            <p className="p_technolgies">React JS</p> 
-                            <p className="p_technolgies">React Bootstrap</p> 
-                            <p className="p_technolgies">Node js</p> 
-                            <p className="p_technolgies">Express</p>
-                            <p className="p_technolgies">Next JS</p> 
-                            <p className="p_technolgies">AWS</p>
-                            <p className="p_technolgies">PWA</p>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-           
-            <Card className="col-lg-4 p-4 col-6">
-              <Card.Img src={hospital}/>
-              <Card.Body>
-                <Card.Title>Hospital Management System</Card.Title>
-                <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
-                            <p className="p_technolgies">React JS</p> 
-                            <p className="p_technolgies">Ant D</p> 
-                            <p className="p_technolgies">Node js</p> 
-                            <p className="p_technolgies">Express</p>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-         </div>
-            
+            <div className="button_box  p-3">
+              <Button className="button">
+                <Link to="/project"> Works </Link>
+              </Button>
+              <Button className="button">
+                <Link to="/about"> Readmore </Link>
+              </Button>
+            </div>
           </div>
+        </div>
+      </Container>
+      <div className="project_section w-100">
+        <p className="text-center mt-2" style={{ fontSize: "1.5rem" }}>
+          Some Of My Recent Works
+        </p>
+        <h1 className="text-center mb-4" style={{ fontSize: "4rem" }}>
+          PROJECTS
+        </h1>
+        <div className=" project_box m-auto row d-flex justify-content-spacebetween flex-wrap">
 
-       <Footer/>
+          {ProjectData.map((data, i) => {
+            return (
+              <Card className="col-lg-4 p-4 col-6">
+                <Card.Img src={data.img} />
+                <Card.Body>
+                  <Card.Title>{data.title}</Card.Title>
+                  <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
 
+                    {data.tech.map((d, i) => {
+                      return <p className="p_technolgies">{d}</p>;
+                    })}
+
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            );
+          })}
+
+        </div>
+      </div>
+
+      <Footer />
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

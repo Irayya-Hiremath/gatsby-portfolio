@@ -24,7 +24,7 @@
 }
 
 
-.form-control {
+.c_form .form-control {
     margin: auto;
     width:90% !important;
     /* margin: auto !important; */
@@ -36,12 +36,11 @@
     border: none !important;
     color:var(--white) !important;
 }
-.form-control:focus {
+.c_form .form-control:focus {
     outline: none !important;
     box-shadow: none !important;
     background-color:var(--deep-dark) !important;
     color:var(--white) !important;
-
   }
 .form-label {
     margin-left: 3rem !important;
@@ -52,7 +51,7 @@
 
 }
 .map{
-    background-image: url("../images/map-02.jpeg");
+    background-image: url("../../public/static/map-02.jpeg");
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -99,7 +98,7 @@
         html{
             font-size: 40%;
         }.map{
-            background-image: url("../images/map-02.jpeg");
+            background-image: url("../../public/static/map-02.jpeg");;
             height: 200px;
             background-position: center;
             background-size: cover;
