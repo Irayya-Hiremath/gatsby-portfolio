@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Layout from '../components/Layout'
 import { Form,Button, Container } from 'react-bootstrap'
 import Footer from '../components/Footer'
@@ -6,6 +6,8 @@ import { FaRegEnvelope } from "@react-icons/all-files/fa/FaRegEnvelope";
 import{FaMapMarkerAlt} from "@react-icons/all-files/fa/FaMapMarkerAlt";
 import {FaMobileAlt} from "@react-icons/all-files/fa/FaMobileAlt";
 import emailjs from 'emailjs-com'
+import AOS from "aos";
+
 
 const Result =() =>{
   return(
@@ -15,6 +17,13 @@ const Result =() =>{
 };
 
 function Contact() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+    AOS.refresh();
+  }, []);
 
   const [result, showResult]=useState(false);
 
@@ -38,7 +47,7 @@ function Contact() {
         <p className='text-center' style={{fontSize:'1.5rem'  }}>Get In Touch</p>
         <h1 className='text-center c_heading'>Contact</h1>
         <div className="row h-100">
-          <div className="col-lg-5 col-12  m-auto  ">
+          <div   data-aos="fade-right" className="col-lg-5 col-12  m-auto  ">
 
             <div className='contact_left_side' >
                 <span className='icondiv'> <FaMobileAlt className='icons'/></span>+91-8951629431
@@ -53,7 +62,7 @@ function Contact() {
             </div>
           
           </div>
-          <div className=" c_form col-lg-5 col-12 m-auto ">
+          <div  data-aos="fade-left" className=" c_form col-lg-5 col-12 m-auto ">
           <Form onSubmit={sendEmail}>
               <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
                 <Form.Label>Your Name</Form.Label>
@@ -75,19 +84,19 @@ function Contact() {
           </div>
         </div>
         </div>
+
         <Container fluid className='map'>
 
-
-                <FaMapMarkerAlt className='mapicon'/>
-              <div className="addbox">
+           <FaMapMarkerAlt className='mapicon'/>
+           <div className="addbox">
                 <h1>Here is me</h1>
                 <p>Renukanagar, Hubbali, <br />
                   Karnataka, 580030
                 </p>
                 <a href="https://goo.gl/maps/WCcRdJRDX27PKBK46">Open in google map</a>
-
-              </div>
+           </div>
         </Container>
+        
       <Footer/>
 
 

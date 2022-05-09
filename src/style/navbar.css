@@ -27,6 +27,10 @@
 .menu-items{
     order: 2;
     display: flex;
+    /* align-content: flex-end !important; */
+    /* justify-content: end !important; */
+    /* align-items: flex-end !important; */
+
 }
 .logo{
     order: 1;

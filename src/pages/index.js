@@ -6,6 +6,7 @@ import { Link } from "gatsby";
 import { useEffect } from "react";
 import AOS from "aos";
 import ProjectData from "../components/Data";
+// import 'aos/dist/aos.css'
 
 const IndexPage = () => {
   useEffect(() => {
@@ -15,15 +16,16 @@ const IndexPage = () => {
     AOS.refresh();
   }, []);
 
+
+
   return (
     <Layout>
+     
       <Container fluid className="my-5">
         <div className="main row m-auto p-3 ">
-          <div className="profile col-lg-5 col-12 order-lg-1 order-2 b"> </div>
-          <div
-            className=" textbody col-lg-7 col-12 order-lg-2 order-1"
-            data-aos="fade-zoom-in"
-          >
+          <div  className="profile col-lg-5 col-12 order-lg-1 order-2 b"> </div>
+
+          <div className=" textbody col-lg-7 col-12 order-lg-2 order-1" data-aos="fade-up" >
             <div className="profileText">
               <p style={{ fontSize: "2.5rem" }}>Hello,This is</p>
               <p style={{ fontSize: "2.5rem" }}>Irayya Hiremath</p>
@@ -42,8 +44,8 @@ const IndexPage = () => {
                 I Have done projects using following WebTechnologies
               </p>
 
-              <div className="skillschart w-75 d-flex justify-content-spacebetween flex-wrap">
-                <h6>HTML</h6>
+              <div className="skillschart d-flex justify-content-spacebetween flex-wrap">
+                <h6 >HTML</h6>
                 <h6>CSS</h6>
                 <h6>JavaScript</h6>
                 <h6>React JS</h6>
@@ -73,20 +75,20 @@ const IndexPage = () => {
         <p className="text-center mt-2" style={{ fontSize: "1.5rem" }}>
           Some Of My Recent Works
         </p>
-        <h1 className="text-center mb-4" style={{ fontSize: "4rem" }}>
+        <h1 className="text-center mb-4"  style={{ fontSize: "4rem" }}>
           PROJECTS
         </h1>
         <div className=" project_box m-auto row d-flex justify-content-spacebetween flex-wrap">
 
-          {ProjectData.map((data, i) => {
+          { ProjectData.map((Data, i) => {
             return (
-              <Card className="col-lg-4 p-4 col-6">
-                <Card.Img src={data.img} />
+              <Card className="col-lg-4 p-4 col-6"  >
+                <Card.Img src={Data.img} />
                 <Card.Body>
-                  <Card.Title>{data.title}</Card.Title>
+                  <Card.Title>{Data.title}</Card.Title>
                   <Card.Text className="d-flex justify-content-spacebetween flex-wrap">
 
-                    {data.tech.map((d, i) => {
+                    {Data.tech.map((d, i) => {
                       return <p className="p_technolgies">{d}</p>;
                     })}
 

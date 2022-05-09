@@ -85,6 +85,9 @@
         font-size: 1.2rem !important;
         margin: .2rem !important;
     }
+    .skillschart{
+        width: 75% !important;
+    }
    
   /* ************** Mobile ****************** */
 @media (max-width: 900px) {
@@ -98,6 +101,8 @@
         opacity:60%;
         height: 400px;
         width: 100% !important;
+        /* margin-top: % !important; */
+
 
     }
     .profileText{
@@ -117,6 +122,9 @@
     
     }
     .project_box{
+        width: 100% !important;
+    }
+    .skillschart{
         width: 100% !important;
     }
     

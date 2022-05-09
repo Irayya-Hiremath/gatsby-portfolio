@@ -2,9 +2,10 @@ import React from 'react'
 import {Link} from 'gatsby';
 function Navmenu() {
   return (
+    <>
     <nav className="navbar ">
       <div className="navbar-container container">
-          <input type="checkbox" name="" id=""/>
+          <input type="checkbox"  id=""/>
           <div className="hamburger-lines">
               <span className="line line1"></span>
               <span className="line line2"></span>
@@ -17,9 +18,10 @@ function Navmenu() {
               <li><Link  className='navlink' to='/contact'>CONTACT</Link></li>
             
           </ul>
-          <h1 className="logo"></h1>
+          <p className="logo"></p>
       </div>
   </nav>
+  </>
   )
 }
 

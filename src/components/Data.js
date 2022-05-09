@@ -38,7 +38,7 @@ const ProjectData=[
         products to the doorsteps Worked on the admin side user interface layout
         modifications`,
         title:'Grocery e-commerce application',
-        tech:['Angular','PHP','Bootstrap','Node js']
+        tech:['Angular','PHP','Bootstrap','Node js','AWS']
 
         },
    {

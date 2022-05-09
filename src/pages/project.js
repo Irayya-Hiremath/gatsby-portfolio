@@ -22,17 +22,19 @@ function Project() {
         <div className="search_bar row" >
          <InputGroup size="lg d-flex">
               <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" type="input"
+              
               onChange={(e)=>{
                 setSearch(e.target.value)
                 console.log(e.target.value)
-              }} /> 
+              }} 
+              /> 
                <FaSistrix className="searchIcon" type="button"/>
         </InputGroup>
         </div>
 
         <div className="row project_box">
-             
-          {ProjectData.filter((p)=>p.title.toLowerCase().includes(search)).map((data, i) => {
+          
+          {ProjectData.filter((p)=>p.title.toUpperCase().includes(search)).map((data, i) => {
             return (
               <Card className="col-lg-4 col-6 my-3">
                 <Card.Img className="card_img" variant="top" src={data.img} />
