@@ -1,3 +1,9 @@
+.index_main{
+    margin-top: 2rem!important;
+    margin-bottom: 2rem!important;
+
+}
+
 .profile{
     background-image: url('../images/BGIMG3-969eefb330f67a07864a8b2cfb3e2f7c.png');
     height: 500px;
@@ -7,17 +13,13 @@
     opacity: 30%;
     padding: 5rem !important;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(228, 233, 227));
-    
+   
 
 }
 .profileText{
     padding-top: 15%;
     color: var(--gray-1);
-    background-color: var(--dark);
-
-
-
-    
+    background-color: var(--dark);   
 }
 .textbody{
     background-color: var(--dark);
@@ -94,6 +96,9 @@
     html{
         font-size: 40%;
     }
+    .index_main{
+        margin-top: 5px!important;
+    }
     .profile{
         background-image: url('../images/BGIMG3-969eefb330f67a07864a8b2cfb3e2f7c.png');
         background-size:contain;
@@ -101,24 +106,20 @@
         opacity:60%;
         height: 400px;
         width: 100% !important;
-        /* margin-top: % !important; */
 
 
     }
     .profileText{
-        padding-top: 2% !important;
         color: var(--gray-1);
         background-color: var(--dark); 
-    /* padding-bottom: 5% !important; */
-    padding: 1rem !important;
+         padding-top:2px;
+
 
     }
     .textbody{
         background-color: var(--dark);
         height:42vh !important;
-    /* padding-bottom: 5% !important; */
-    /* border: solid white 2px; */
-
+   
     
     }
     .project_box{

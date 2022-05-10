@@ -21,7 +21,7 @@ const IndexPage = () => {
   return (
     <Layout>
      
-      <Container fluid className="my-5">
+      <Container fluid className="index_main">
         <div className="main row m-auto p-3 ">
           <div  className="profile col-lg-5 col-12 order-lg-1 order-2 b"> </div>
 
@@ -29,7 +29,6 @@ const IndexPage = () => {
             <div className="profileText">
               <p style={{ fontSize: "2.5rem" }}>Hello,This is</p>
               <p style={{ fontSize: "2.5rem" }}>Irayya Hiremath</p>
-              {/* <p style={{fontSize:'3.5rem'}}>Frontend Devloper</p> */}
               <p style={{ fontSize: "1.5rem", textAlign: "justify" }}>
                 I am working as a Front-End Developer. I love to design and make
                 new web experiences for the people,

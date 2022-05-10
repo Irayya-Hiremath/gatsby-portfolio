@@ -69,6 +69,7 @@
 @media (max-width: 900px){
     .navbar{
         opacity: 0.95;
+        height: auto;
     }
 
     .navbar-container input[type="checkbox"],
@@ -79,7 +80,8 @@
     .navbar-container{
         display: block;
         position: relative;
-        height: 64px;
+        height: 35px;
+
     }
 
     .navbar-container input[type="checkbox"]{
@@ -96,10 +98,10 @@
 
     .navbar-container .hamburger-lines{
         display: block;
-        height: 25px;
-        width: 30px;
+        height: 20px;
+        width: 25px;
         position: absolute;
-        top: 20px;
+        top: 10px;
         left: 20px;
         z-index: 2;
         display: flex;
