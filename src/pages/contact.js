@@ -7,6 +7,8 @@ import{FaMapMarkerAlt} from "@react-icons/all-files/fa/FaMapMarkerAlt";
 import {FaMobileAlt} from "@react-icons/all-files/fa/FaMobileAlt";
 import emailjs from 'emailjs-com'
 import AOS from "aos";
+import Heads from "../components/Heads";
+
 
 
 const Result =() =>{
@@ -38,14 +40,18 @@ function Contact() {
     e.target.reset();
     showResult(true);
   }
+
   setTimeout(()=>{
     showResult(false)
   },5000)
+
   return (
     <Layout>
+      <Heads title="Contact" />
+
       <div className=" container contact_page  my-5 p-3  ">
-        <p className='text-center' style={{fontSize:'1.5rem'  }}>Get In Touch</p>
-        <h1 className='text-center c_heading'>Contact</h1>
+        <p data-aos="flip-up" className='text-center' style={{fontSize:'1.5rem'  }}>Get In Touch</p>
+        <h1 data-aos="flip-up" className='text-center c_heading'>Contact</h1>
         <div className="row h-100">
           <div   data-aos="fade-right" className="col-lg-5 col-12  m-auto  ">
 
@@ -62,7 +68,7 @@ function Contact() {
             </div>
           
           </div>
-          <div  data-aos="fade-left" className=" c_form col-lg-5 col-12 m-auto ">
+          <div className=" c_form col-lg-5 col-12 m-auto ">
           <Form onSubmit={sendEmail}>
               <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
                 <Form.Label>Your Name</Form.Label>

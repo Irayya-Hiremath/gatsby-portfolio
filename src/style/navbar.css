@@ -27,10 +27,7 @@
 .menu-items{
     order: 2;
     display: flex;
-    /* align-content: flex-end !important; */
-    /* justify-content: end !important; */
-    /* align-items: flex-end !important; */
-
+ 
 }
 .logo{
     order: 1;
@@ -39,17 +36,21 @@
 
 .menu-items li{
     list-style: none;
-    margin-left: 4rem;
+    margin-left: 5rem;
     color: var(--gray-1);
     font-size: 1.8rem; 
-    padding: 1rem;
+    padding: 0.5rem;
     font-weight: bold !important;
 
 } 
 .menu-items li:hover{
-    background-color:var(--deep-dark);
+    /* background-color:var(--deep-dark); */
     border-radius: 1rem;
-    color: var(--gray-1);
+    /* color: var(--gray-1); */
+    border: .5px solid var(--gray-1);
+   transform: scale(1.1);
+
+        
 
 }
 
@@ -61,7 +62,7 @@
     color: var(--gray-1);
     font-size: 1.8rem; 
     padding: 1rem;
-    font-weight: 900 !important;
+    font-weight: 600 !important;
 }
 
 

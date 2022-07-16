@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 import { useEffect } from "react";
 import AOS from "aos";
 import ProjectData from "../components/Data";
-// import 'aos/dist/aos.css'
+import Heads from "../components/Heads";
 
 const IndexPage = () => {
   useEffect(() => {
@@ -19,8 +19,11 @@ const IndexPage = () => {
 
 
   return (
+    
     <Layout>
-     
+
+      <Heads title="Home" />
+
       <Container fluid className="index_main">
         <div className="main row m-auto p-3 ">
           <div  className="profile col-lg-5 col-12 order-lg-1 order-2 b"> </div>
@@ -44,7 +47,7 @@ const IndexPage = () => {
               </p>
 
               <div className="skillschart d-flex justify-content-spacebetween flex-wrap">
-                <h6 >HTML</h6>
+                <h6>HTML</h6>
                 <h6>CSS</h6>
                 <h6>JavaScript</h6>
                 <h6>React JS</h6>
@@ -60,13 +63,14 @@ const IndexPage = () => {
             </div>
 
             <div className="button_box  p-3">
-              <Button className="button">
+              <Button data-aos="flip-up" className="button">
                 <Link to="/project"> Works </Link>
               </Button>
-              <Button className="button">
+              <Button data-aos="flip-up" className="button">
                 <Link to="/about"> Readmore </Link>
               </Button>
             </div>
+
           </div>
         </div>
       </Container>
@@ -74,9 +78,10 @@ const IndexPage = () => {
         <p className="text-center mt-2" style={{ fontSize: "1.5rem" }}>
           Some Of My Recent Works
         </p>
-        <h1 className="text-center mb-4"  style={{ fontSize: "4rem" }}>
+        <h1 className="text-center mb-4" style={{ fontSize: "4rem" }}>
           PROJECTS
         </h1>
+
         <div className=" project_box m-auto row d-flex justify-content-spacebetween flex-wrap">
 
           { ProjectData.map((Data, i) => {

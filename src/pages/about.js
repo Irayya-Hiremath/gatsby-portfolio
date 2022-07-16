@@ -3,7 +3,9 @@ import Footer from '../components/Footer'
 import Layout from '../components/Layout'
 import AOS from "aos";
 import { Button } from 'react-bootstrap'
-import { useEffect } from 'react'
+import { useEffect } from 'react';
+import Heads from "../components/Heads";
+
 
 
 
@@ -21,6 +23,8 @@ function About() {
   return (
 
     <Layout>
+      <Heads title="About" />
+
       <div className=" container my-5">
             <div className=" container row m-auto">
               <div className="col-lg-5 read_about col-12 order-lg-1 order-2 "></div>
@@ -34,7 +38,8 @@ function About() {
                       </div>
 
                       <div className="button_box p-3">
-                        <a href='./static/irayyacv2022.pdf'> <Button className="button"> Download CV</Button>  </a>
+                        <a href='./static/irayyacv2022.pdf'> <Button data-aos="flip-right" className="button"> Download CV</Button>  </a>
+                        <a href='https://github.com/Irayya-Hiremath'target="blank" > <Button data-aos="flip-right" className="button"> Github</Button>  </a>
                       </div>
                 </div>
              </div>
@@ -98,7 +103,7 @@ function About() {
                 
 
                   </div>
-                  <div className="col-3">
+                  <div className="col-lg-3 col-12 mb-3 ">
                   <h2>2019-2020</h2>
 
                   </div>
@@ -142,7 +147,7 @@ function About() {
 
               </div>
               <div className="col-lg-8 col-12 d-flex justify-content-spacebetween flex-wrap">
-              <h6>Visvesvaraya Technological University</h6>
+              <h6>Visvesvaraya Technological University (VTU)</h6>
 
               </div>
             </div>

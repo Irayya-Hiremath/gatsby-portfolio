@@ -52,3 +52,5 @@
   
 //   ]
 // }
+// plugins: [`gatsby-plugin-react-head`];
+// plugins: [`gatsby-plugin-react-helmet`]

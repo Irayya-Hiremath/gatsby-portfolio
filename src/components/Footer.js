@@ -21,7 +21,7 @@ function Footer() {
                         {/***************************************** column 1 **********************************************/}
                         <div className="col-lg-3 col-6" >
                             <h3 className='footerHeader mb-3'><span className='halfBorder pb-3'>Useful Links</span></h3>
-                            <ul className="list-unstyled px-5 mx-5">
+                            <ul className="list-unstyled px-5">
 
                                 <li><Link className='footerLink' to="/">Home</Link></li>
                                 <li><Link className='footerLink' to="/about">About</Link></li>
@@ -41,21 +41,7 @@ function Footer() {
                                 <li><Link className='footerLink' >Karnataka</Link></li>
 
                             </ul>
-                        </div>
-
-                        {/***************************************** column 2 **********************************************/}
-                        {/* <div className="col-lg-2 col-5 " >
-                            <h3 className='footerHeader ps-0 mb-3'><span className='halfBorder pb-3'>Social Links</span></h3>
-                            <ul className="list-unstyled  px-5 mx-5">
-                                <li className='footerLi'><Link className='footerLink' to="/https://github.com/Irayya-Hiremath"> Github</Link></li>
-                                <li className='footerLi'><Link className='footerLink' to="/"> Twitter</Link></li>
-                                <li className='footerLi'><Link className='footerLink' to="/"> Linkedin</Link></li>
-                                <li className='footerLi'><Link className='footerLink' to="/">Youtube</Link></li>
-                                <li className='footerLi'><Link className='footerLink' target="_blank" > Location</Link></li>
-
-                            </ul>
-                        </div> */}
-                        
+                        </div>  
                     </div>
 
     

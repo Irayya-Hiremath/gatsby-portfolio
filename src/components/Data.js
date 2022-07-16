@@ -1,13 +1,9 @@
-// import {ware} from '../images/ware.jpg'
 
 const ProjectData=[
     {
       img: './static/ware.jpg',
-      description:`Worked on the client-side aspect of this project in using standard web
-      development tools as well as ReactJS and done hybrid application using PWA with next js. The server-side part is done in
-      NodeJS in ExpressJS framework with the database being done in MySql.
-      This application manages all the warehouse activiteis.`,
-      title:'Ware House Mangement',
+      description:`Worked on the client-side aspect of this project and built with modern technologies like React.js and React-Bootstrap and done hybrid application for mobile, using PWA technology with next js. This application manages all the warehouse activiteis and makes warehouse management an easier task.it keeps track of all purchases and sales and its main feature is to keep track of all orders with all details at every step of the order journey.`,
+      title:'Ware House Management',
       tech:['React js','React Bootstrap','Next Js','Node js','PWA']
     },
     {
@@ -42,10 +38,8 @@ const ProjectData=[
 
         },
    {
-        img: './static/clg.png',
-        description:`Developed Pre-University College website by using Gatsby static website
-        generator and React-bootstrap with Styled component. The website
-        shows detailed information about college.`,
+        img: './static/col.png',
+        description:`Developed Pre-University College website by using a static website generator that is Gatsby with React-bootstrap. Deployed the application in the Bigrocker cloud platform. The website shows an overview and all detailed information about the college.`,
         title:'College Website',
         tech:['Gatsby js','React Bootstrap',]
 
@@ -57,7 +51,14 @@ const ProjectData=[
       title:'Samarth Meditech company Website',
       tech:['Javascript','Bootstrap']
 
-   }
+   },
+   {
+    img: './static/git.png',
+    description:`You can find the some of my hobby projects directly on my github.`,
+    title:'Some Of My Hobby projects',
+    tech:['Github']
+
+ }
   ]
 
 export default ProjectData

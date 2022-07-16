@@ -5,12 +5,9 @@
 }
 
 h1{
-    /* border: 1px solid white; */
-    /* width: 20rem; */
     font-weight: bold !important;
 }
 h6{
-    /* border: 1px solid white; */
     width: auto !important;
     font-size: 1.5rem !important;
     background-color:var(--deep-dark);

@@ -13,20 +13,16 @@
 }
 body{
     background-color: var(--dark);
-    /* font-family: "RobotoMono Regular" !important; */
-    font-family: 'Bangers', cursive !important;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 html{
     font-size: 62.5%;
     scroll-behavior: smooth !important;
-    /* font-family: "RobotoMono Regular" !important; */
 }
 
 
 .layout{
     background-color: var(--dark);
-    /* height:100vh; */
     width:screen;
     overflow-x:hidden;
     overflow-y:scroll;
@@ -42,8 +38,7 @@ html{
     height: 100%;
     color: var(--gray-1);
     background-color: var(--dark);
-    /* display: flex;
-    justify-content: space-around;*/
+  
 }
 
 .fcolumn{
@@ -63,7 +58,6 @@ html{
 }
 .footerLink{
     text-decoration: none;
-    font-family: "RobotoMono Regular";
     font-size: 1.7rem;
     color: var(--gray-1) !important;
 
@@ -76,10 +70,8 @@ html{
 
 
 .footerHeader {
-    font-family: 'Roboto Mono', monospace;
     color: var(--footerHeader);
     font-size: 2.2rem;
-    text-align: left;
     color: var(--gray-1);
 
 }

@@ -3,7 +3,7 @@
 
 }
 .c_heading{
-    font-size: 5rem;
+    font-size: 4rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
 }
@@ -11,7 +11,6 @@
     width:90%;
     margin: auto;
     padding: 2rem;
-    /* border: 2px solid white; */
     border-radius: 1rem;
     background-color:var(--deep-dark);
     font-size: 1.5rem;
@@ -27,9 +26,7 @@
 .c_form .form-control {
     margin: auto;
     width:90% !important;
-    /* margin: auto !important; */
     padding: 1rem !important;
-    /* border: 2px solid white !important; */
     border-radius: 1rem !important;
     background-color:var(--deep-dark) !important;
     font-size: 2rem !important;
