@@ -12,8 +12,8 @@ function Footer() {
                             <h3 className='footerHeader mb-3'>Irayya Hiremath</h3>
                             <div>
                                 <div className="footerContact mb-5 justify">
-                                I am Front-End Developer from Hubbali, Karnataka. <br/> 
-                                I always make websites that have unique designs and also has a good performance rate.
+                                I am a <strong>Software Engineer</strong> from Hubbali, Karnataka.<br/> 
+                                I always make websites that have unique designs and also have a good performance rate.
                                 </div>
                             </div>
                         </div>

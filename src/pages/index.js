@@ -33,13 +33,9 @@ const IndexPage = () => {
               <p style={{ fontSize: "2.5rem" }}>Hello,This is</p>
               <p style={{ fontSize: "2.5rem" }}>Irayya Hiremath</p>
               <p style={{ fontSize: "1.5rem", textAlign: "justify" }}>
-                I am working as a Front-End Developer. I love to design and make
-                new web experiences for the people,
+              I am a <strong>Software Engineer</strong>  I love to design and make new web experiences for people.
                 <br />
-                Looking for an opportunity in an esteemed organization to put in
-                my best efforts and always hunger for learning new things and
-                put those skills into continuous implementation to achieve
-                personal growth and fulfilling organizational goals.
+                I am looking for an opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfil organisational goals.
               </p>
 
               <p style={{ fontSize: "1.5rem", textAlign: "justify" }}>
