@@ -32,15 +32,16 @@ function About() {
                       <div className="aboutText" data-aos="fade-left">
                             <p style={{fontSize:'2.5rem'}}>Hello,</p>
                             <p style={{fontSize:'2rem'}}>Let me introduce myself</p>
-                            <p  style={{fontSize:'1.5rem',textAlign:'justify'}}>I am Irayya Hiremath, currently working as a <strong>Software Engineer</strong>. I am a Mechanical Engineering graduate from Hulkoti, Gadag. I started as a <strong>Design Engineer</strong> at BLH H-Tech PVT LTD, Hubbali, in an IoT team for the SPOUT project. I was in charge of designing the Spout's parts in Catia V5.<br/>
+                            <p style={{fontSize:'1.5rem',textAlign:'justify'}}>I am Irayya Hiremath, currently working as a <strong>Software Engineer</strong>. I am a Mechanical Engineering graduate from Hulkoti, Gadag. I started as a <strong>Design Engineer</strong> at BLH H-Tech PVT LTD, Hubbali, in an IoT team for the SPOUT project. I was in charge of designing the Spout's parts in Catia V5.<br/>
                             continued in the same organisation as a customer-facing Project Coordinator/Technical Consultant for web and mobile applications under the IT Dept. In that role, I was responsible for gathering customer requirements and signoff, designing the wireframes and application flows. collaborating with sales, development, and testing teams to complete the application implementation. Customer Demo and Presentation.<br/>
                             After that, I found an interest in development and coding. Then I joined the organisation Sathvik Softech, Hubbali, where I had completed my course and got an opportunity for an internship and worked on many small projects, learning new technology with real-time projects. This includes designing and developing UI for the websites and integrating them with the back-end system.</p>
                       </div>
 
                       <div className="button_box p-3">
-                        <a href='./static/irayyacv2022.pdf'> <Button data-aos="flip-right" className="button"> Download CV</Button>  </a>
+                        <a href='./static/IrayyaHiremath_cv_2022.pdf'> <Button data-aos="flip-right" className="button"> Download CV</Button>  </a>
                         <a href='https://github.com/Irayya-Hiremath'target="blank" > <Button data-aos="flip-right" className="button"> Github</Button>  </a>
-                      </div>
+                     </div>
+
                 </div>
              </div>
           </div>
@@ -51,6 +52,7 @@ function About() {
            <div className="educatioinSection mt-5 ">
                 <h1>MY SKILLS</h1>
                 <div  className="education mt-5 row">
+
                   <div className="col-lg-3 col-12 mb-3" >
                      <h2>WebTechnologies</h2>
                   </div>
@@ -92,10 +94,11 @@ function About() {
 
 
           <div className="educatioinSection mt-5 ">
+
                 <h1>EXPERIENCES</h1>
                 <div className="education mt-5 row">
                   <div className="col-lg-3 col-6 mb-3">
-                  <h2>2020-</h2>
+                  <h2>2020-Present</h2>
 
                   </div>
                   <div className="col-lg-8 col-12 mb-3 d-flex ">
